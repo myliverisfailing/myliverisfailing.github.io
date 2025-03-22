@@ -1,27 +1,70 @@
-:root {
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
 
 ::-webkit-scrollbar {
     display: none;
 }
 
 body {
+    display: flex;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
     padding: 0;
     margin: 0;
 }
 
-footer {
-    /*filter: grayscale();*/
+.nav {
+    background: linear-gradient(black, dimgray, grey, dimgray);
+    height: 98.5vh;
+    width: 250px;
     border-style: solid;
     border-color: black;
-    height: 100vh;
-    width: 230px;
-    background-color: black;
+    border-width: 7px;
 }
 
-footer h1 {
-    margin-left: 25px;
+.nav h1 {
     color: white;
+    text-align: center;
+    font-family: 'REM', sans-serif;
     user-select: none;
+    font-size: 32px;
+    padding: 2px;
+    text-decoration: underline;
+}
+
+.nav ul, li, a {
+    color: white;
+    font-family: 'REM', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding: 5px;
+}
+
+.nav a {
+    all: unset;
+}
+
+.content h1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: 'REM', sans-serif;
+    padding: 10px;
+    user-select: none;
+}
+
+.content p {
+    font-family: 'REM', sans-serif;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
 }
