@@ -1,0 +1,12 @@
+.content button {
+    all: unset;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.content a {
+    all: unset;
+}
