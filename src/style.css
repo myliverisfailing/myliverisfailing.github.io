@@ -1,23 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
-
-::-webkit-scrollbar {
-    display: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap'); /*uses fonts from google api*/
 
 body {
     display: flex;
-    background-image: url('./images/bg.jpg');
+    background-image: url('./images/bg.jpg'); /*set the background image from a path*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-* {
+* { /*sets all margins, and padding to 0*/
     padding: 0;
     margin: 0;
 }
 
-.nav {
+.nav { /*Decorating the nav bar*/
     background: linear-gradient(black, dimgray, grey, dimgray);
     height: 98.5vh;
     width: 250px;
@@ -27,6 +23,7 @@ body {
 }
 
 .nav h1 {
+    border-style: solid;
     color: white;
     text-align: center;
     font-family: 'REM', sans-serif;
@@ -36,20 +33,25 @@ body {
     text-decoration: underline;
 }
 
-.nav ul, li, a {
+.nav ul, li, a { /**/
     color: white;
-    font-family: 'REM', sans-serif;
+    font-family: 'REM', sans-serif; /*using google fonts*/
     font-size: 25px;
     margin-top: 5px;
     padding-left: 5px;
     padding: 5px;
 }
 
-.nav a {
+.nav a { /*unset all the default hyperlink css (making it into regular text)*/
     all: unset;
 }
 
-.content h1 {
+.content h1 { /*styling the 'index' text*/
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    text-align: center;
+    background: linear-gradient(270deg, black, dimgray, grey, dimgray);
     color: white;
     margin-left: 50px;
     margin-top: 25px;
@@ -59,7 +61,11 @@ body {
     user-select: none;
 }
 
-.content p {
+.content p { /*decorating the paragraph in the page*/
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    background: linear-gradient(270deg, dimgray, grey, dimgray);
     font-family: 'REM', sans-serif;
     margin-left: 200px;
     margin-top: 100px;
