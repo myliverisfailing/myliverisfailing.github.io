@@ -33,7 +33,7 @@ body {
     text-decoration: underline;
 }
 
-.nav ul, li, a { /**/
+.nav ul, li, a { /*For the nav bar, it styles all elements (ul, li & a)*/
     color: white;
     font-family: 'REM', sans-serif; /*using google fonts*/
     font-size: 25px;
