@@ -1,6 +1,6 @@
 <!--
 
-If anyone actually reads through the websites code, I can assure you AI can't write this shit, and it was all written by a human.
+If anyone actually reads through the websites code, I can assure you AI can't write code this shit.
 For all of the pages its the same idea just with changed titles, texts and images. Im to FAT to go through and comment on all of those individually
 The website looks ass, but it functions (well enough). It would be deeply appreciated if this shitty website got me a decent grade (achieved at least)
 
@@ -12,24 +12,30 @@ The website looks ass, but it functions (well enough). It would be deeply apprec
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css"> <!--link the css file-->
-    <link rel="icon" href="./src/images/icon.png"> <!--Set the website icon-->
+    <link rel="icon" href="./src/images/icon.png"> <!--Set the website icon (i doubt anyone else is doing this)-->
+    <script src="./src/script.js"></script> <!--Javascript file for scripting some features into the website-->
     <title>NZ Native Birds</title> <!--Sets the title of the website (e.g. what it says in the top bar of the tab)-->
 </head>
 <body>
-    <nav class="nav text">
-        <h2>Native Birds</h2>
-        <br>
-        <ul>
-            <li><a href="./src/pages/kea.html" class="pointer">- Kea</a></li>
-            <li><a href="./src/pages/kiwi.html" class="pointer">- Kiwi</a></li>
-            <li><a href="./src/pages/weka.html" class="pointer">- Weka</a></li>         <!--Add hyperlinks to the page-->
-            <li><a href="./src/pages/pukeko.html" class="pointer">- Pukeko</a></li>
-            <li><a href="https://github.com/myliverisfailing/myliverisfailing.github.io" class="pointer">- Source Code</a></li>
-        </ul>
-    </nav>
-    <div class="content text">   <!--Where the content of the page is stored (index title and a paragraph)-->
-        <h1>Index</h1>
-        <p>Hello, myliverisfailing.github.io is an educational page about New Zealand native birds. The entirety of this website is and encourages users to become educated about New Zealand and the state of the native birds.</p>
-    </div>
-</body>
+    <h1 id="header"></h1>
+    <footer>
+        <a href="./src/pages/kiwi.html">
+            <h2>Kiwi</h2>
+            <img src="./src/images/kiwi.jpg">
+        </a>
+        <a href="./src/pages/kea.html">
+            <h2>Kea</h2>
+            <img src="./src/images/kea.jpg">
+        </a>
+        <a href="./src/pages/weka.html">
+            <h2>Weka</h2>
+            <img src="./src/images/weka.jpg">
+        </a>
+        <a href="./src/pages/pukeko.html">
+            <h2>Pukeko</h2>
+            <img src="./src/images/pukeko.jpg">
+        </a>
+    </footer>
+    <a href="https://github.com/myliverisfailing/myliverisfailing.github.io" id="source">Source Code</a>
+</body> 
 </html>
