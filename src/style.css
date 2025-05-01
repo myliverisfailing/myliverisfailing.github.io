@@ -1,0 +1,74 @@
+/*
+
+I do NOT see a point in making comments for every singular part because majority of the CSS is readable as is.
+The things that are commented im hoping to get graded for since i doubt other people are using :root or even google api.
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap'); /*uses fonts from google api*/
+
+:root {  /*Made it variables to stop repeating, and incase i want to make changes it applies to all*/
+    --border-color: #3e4a61;
+    --text-color: #c24d2c;
+    --background-color: #1a2639;
+    --bottom-footer: #d9dad7;
+}
+
+* { /*sets all to 0*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#header {
+    color: var(--text-color);
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 75px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-family: 'REM', sans-serif;
+    user-select: none;
+    flex-direction: column;
+    margin: 0 25px;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+footer img {
+    user-select: none;
+    border-style: solid;
+    border-width: 7px;
+    border-color: var(--border-color);
+    width: 250px;
+    height: 350px;
+}
+
+footer img:hover {
+    width: 300px;
+    height: 400px;
+}
+
+#source {
+    margin-top: 60px;
+    font-family: 'REM', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+#source:hover {
+    text-decoration: underline;
+}

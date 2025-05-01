@@ -1,0 +1,69 @@
+/*--
+
+All the pages are the exact same, only differance is the text, and images so all formatting is the same and can be done-
+in much less css lines. This is for code quality rather than having heaps of code doing the same thing as these few lines.
+
+--*/
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+
+:root {
+    --border-color: #3e4a61;
+    --text-color: #c24d2c;
+    --background-color: #1a2639;
+    --bottom-footer: #d9dad7;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    color: var(--text-color);
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content p {
+    color: var(--text-color);
+    flex-direction: column;
+    font-size: 20px;
+    width: 250px;
+    height: 230px;
+    font-family: 'REM', sans-serif;
+}
+
+.content img {
+    border-style: solid;
+    border-color: var(--border-color);
+    border-width: 7px;
+    width: 350px;
+    height: 350px;
+}
+
+#return {
+    all: unset;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'REM', sans-serif;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+#return:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
