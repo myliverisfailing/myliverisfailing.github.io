@@ -1,2 +1,2 @@
-# New Zealand Native Birds | A digital technologies website
-## I don't give a fuck about code quality for school work. This code is NOT AI generated because it's shit, and there is github commit history. The commit messages have random names, but if you care enough go through them to see the progress that was made throughout this term.
+# NZ Native Birds | A digital technologies outcome.
+>### This website was developed for the 1.2 internal assessment. To view the progression, and changes of this website refer to the [commit history](https://github.com/myliverisfailing/myliverisfailing.github.io/commits/main/).
