@@ -19,7 +19,7 @@ The things that are commented im hoping to get graded for since i doubt other pe
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--background-color); /*set background color to the variable*/
 }
 
 #header {
@@ -70,5 +70,5 @@ footer img:hover {
 }
 
 #source:hover {
-    text-decoration: underline;
+    text-decoration: underline; /*When the source code button is hovered upon, it underlines the text.*/
 }
