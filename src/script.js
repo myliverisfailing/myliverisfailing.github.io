@@ -1,5 +1,6 @@
 /*
 This code animates the header text appear one letter at a time every 50ms (milliseconds)
+As far as i know this code doesn't mean shit for my grade but makes the website look nicer
 */
 
 document.addEventListener("DOMContentLoaded", function() {
