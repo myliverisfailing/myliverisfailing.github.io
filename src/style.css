@@ -60,6 +60,10 @@ footer img:hover {
     transform: scale(1.1);
 }
 
+footer h2:hover {
+    text-decoration: underline;
+}
+
 #source {
     margin-top: 60px;
     font-family: 'REM', sans-serif;
