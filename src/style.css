@@ -46,17 +46,18 @@ footer a {
 }
 
 footer img {
+    margin-top: 25px;
     user-select: none;
     border-style: solid;
     border-width: 7px;
     border-color: var(--border-color);
     width: 250px;
     height: 350px;
+    transition: transform .2s;
 }
 
 footer img:hover {
-    width: 300px;
-    height: 400px;
+    transform: scale(1.1);
 }
 
 #source {
